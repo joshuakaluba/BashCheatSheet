@@ -1,6 +1,6 @@
 # Docker Cheatsheet
 
-The following are a cheatsheet for my commonly used docker commands:
+The following compose a cheatsheet for my commonly used docker commands:
 
 ## Build an image
 
