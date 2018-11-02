@@ -64,3 +64,7 @@ The following compose a cheatsheet for my commonly used docker commands:
 ## Docker connect to running container
 
 ` docker exec -it container_name /bin/bash `
+
+## See docker stats
+
+` docker stats `
