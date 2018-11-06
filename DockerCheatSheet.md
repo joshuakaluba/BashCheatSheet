@@ -68,3 +68,7 @@ The following compose a cheatsheet for my commonly used docker commands:
 ## See docker stats
 
 ` docker stats `
+
+## Rebuild docker-compose containers
+
+` docker-compose build `
