@@ -32,3 +32,6 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.22.0/docker-
 
 # Make docker-compose executable
 sudo chmod +x /usr/local/bin/docker-compose
+
+# Shortcut to get and run this script
+# curl -s https://raw.githubusercontent.com/joshuakaluba/BashCheatSheet/master/install_docker.sh | bash -s
