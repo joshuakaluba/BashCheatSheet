@@ -53,9 +53,9 @@ The following compose a cheatsheet for my commonly used docker commands:
 
 ` docker search image_name `
 
-## Remove all images
+## Delete all images
 
-` docker rm $(docker ps -a -q); docker rmi $(docker images -q) `
+` docker rm $(docker ps -a -q) -f; docker rmi $(docker images -q) -f `
 
 ##  Sample run with env variables
 
