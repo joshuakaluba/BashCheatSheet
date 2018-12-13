@@ -39,6 +39,12 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.22.0/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 
 ###############################################################
+########################## INSTALL Unzip ######################
+###############################################################
+sudo apt-get install unzip -y
+
+
+###############################################################
 ########################## INSTALL .NET CORE###################
 ###############################################################
 
@@ -49,3 +55,4 @@ sudo add-apt-repository universe
 sudo apt-get install apt-transport-https
 sudo apt-get update -y
 sudo apt-get install dotnet-sdk-2.2 -y
+
