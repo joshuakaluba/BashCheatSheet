@@ -56,3 +56,12 @@ sudo apt-get install apt-transport-https
 sudo apt-get update -y
 sudo apt-get install dotnet-sdk-2.2 -y
 
+
+###############################################################
+########################## INSTALL NODE JS#####################
+###############################################################
+
+sudo curl -sL https://deb.nodesource.com/setup_8.x | sudo bash -
+sudo apt install nodejs -y
+sudo npm install -g @angular/cli
+sudo npm install -g expo-cli
