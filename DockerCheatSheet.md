@@ -56,6 +56,7 @@ The following compose a cheatsheet for my commonly used docker commands:
 ## Delete all images
 
 ` docker rm $(docker ps -a -q) -f; docker rmi $(docker images -q) -f `
+` docker system prune`
 
 ##  Sample run with env variables
 
