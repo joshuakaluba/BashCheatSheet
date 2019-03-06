@@ -57,7 +57,7 @@ The following compose a cheatsheet for my commonly used docker commands:
 
 `docker rm $(docker ps -a -q) -f; docker rmi $(docker images -q) -f`
 
-## Delete all stopped images
+## Delete all stopped containers and networks
 
 `docker system prune`
 
