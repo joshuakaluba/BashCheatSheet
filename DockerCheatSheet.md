@@ -24,6 +24,10 @@ The following compose a cheatsheet for my commonly used docker commands:
 
 `docker rm container_name`
 
+## Validate docker-compose.yml and view generated file
+
+`docker-compose config`
+
 ## See ports on running container
 
 `docker port container_name`
