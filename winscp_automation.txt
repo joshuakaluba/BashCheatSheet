@@ -1,0 +1,23 @@
+# WinSCP File Transfer Automation Script
+
+## Instuctions 
+
+# Rename this file from .md to .txt (might not be necessary), then change username, host, and ssh key
+
+open sftp://root:password@127.0.0.1/ -hostkey="ssh-ed25512 256 mx8AclbfL+3B5ni72PUPJrNePmd5Z5Mn8FLwUvw7iJE="
+
+put C:\Users\josh\Desktop\test /root/test
+
+## Remote Command Execution 
+# Follow the `call ${command}` pattern to execute a remote command. where ${command} is the full command to execute
+
+call sudo apt-get update -y
+call curl -s https://raw.githubusercontent.com/joshuakaluba/BashCheatSheet/master/install_docker.sh | bash -s
+
+exit
+
+# Execute the script using a command like:
+# "C:\Program Files (x86)\WinSCP\WinSCP.exe" /ini=nul /script="C:\path\to\script\script.txt"
+
+# For example
+# "C:\Program Files (x86)\WinSCP\WinSCP.exe" /ini=nul /script="D:\Src\Automation\test_generic_script.txt"
