@@ -19,3 +19,5 @@ linuxserver/transmission
 
 # Start transmission
 docker start transmission
+
+# curl -s https://raw.githubusercontent.com/joshuakaluba/BashCheatSheet/master/install_transmission.sh | bash -s
