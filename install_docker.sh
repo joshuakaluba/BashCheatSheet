@@ -35,3 +35,4 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 # Shortcut to get and run this script
 # curl -s https://raw.githubusercontent.com/joshuakaluba/BashCheatSheet/master/install_docker.sh | bash -s
+# curl -s https://raw.githubusercontent.com/joshuakaluba/BashCheatSheet/master/install_transmission.sh | bash -s
